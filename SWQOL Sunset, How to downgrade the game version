@@ -1,0 +1,33 @@
+After a very, very short time, The popular and indispensable utility for seasoned builders, Stormworks Quality of Life Suite has ceased updates since the release of Stormworks v1.13.0, "The Asset Modding Major Update", 
+The author has cited the updated EULA that shipped with the update as the main reason. 
+Please read the Author's words here (https://github.com/PieKing1215/swQolSuite/issues/4) 
+
+Having used the tool extensively and know many others that have done the same, it is a great loss within, specifically, the skilled building community, however new players alike were able to take advantage of the in-editor xml editing offered by the tool, 
+which toppled one of the largest roadblocks in becoming proficient in xml. 
+
+As such, I have taken it upon myself to do what we can at the moment, And compile an easy to follow guide regarding the steps required to downgrade the game version from the latest (v1.13.1 at the time of writing) 
+to the last officially supported version of the game, 1.12.6, though you can also use 1.12.7 for the experimental mod support beta, however I do not use them so I will stick with the main branch. 
+
+Prerequisites:
+A Steam account that owns the game
+Steam Console or a GUI tool, I will be using the latter. 
+  - Steam Console can be accessed by running 'steam://open/console' in windows' run utility
+  - GUI Tool used is SteamDepotDownloaderGUI available here 'https://github.com/mmvanheusden/SteamDepotDownloaderGUI'
+The App, Depot & Manifest IDs 
+ - App: 573090
+ - Depot: 573091
+ - Manifest: 2976197206723170585
+
+- Process -
+I will be detailing the GUI process in this guide, Steam Console is widely used and documentation can be found quite readily. 
+
+Enter your Username & Password in the top two fields, followed by the App, Depot & Manifest ID, set your download location to something OTHER than the Steam download location, since we do not want to overwrite.
+
+Next, while this is downloading, backup the entirety of your native steam folder, (copy & paste it somewhere else). 
+We will then take the downloaded files, (stored in Download_Location/App_ID) and paste them into the native Steam folder, when prompted to overwrite duplicates, click "yes" and wait. 
+
+I am unsure if steam will auto-update when loaded, but this can easily be bypassed by enabling airplane mode or disconnecting the internet on your device when loading in to the game, and then reconnecting when you do. 
+
+
+
+
